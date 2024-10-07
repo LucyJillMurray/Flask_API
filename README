@@ -12,11 +12,11 @@ import nltk
 pip install transformers
 pip install torch
 
+To Run:
 python sentiment.py->this should output a link
 In postman
-post: link/analyse
-body
-raw: put Json eg:
+post: <link>/analyse
+In body/raw: put Json eg:
 {"text":" I love dogs"}
 {"text":"I like this API"}
 {"text":"I somewhat dislike this API"}
